@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("BeautifulDog")
-@Scope("prototype")
+//@Scope("prototype")
 public class Dog implements Animal {
     static Logger logger = LoggerFactory.getLogger(Dog.class);
 
